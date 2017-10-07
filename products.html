@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> Products </title>
+
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="css/productsStyle.css">
+
+</head>
+
+<body>
+	<header id="fixedHeader"> 
+		<a href="index.html"> <img id="MPAGLogo" src="img/MPAGLogo.svg"> </a>
+		<p id="headerText"> Muddy Paw Adventure Gear </p>
+		<img id="searchBar" src="img/SearchBar.svg">
+		<nav>
+			<a href="products.html"> <div class="navTab active"> <img class="icons" src="img/products.svg"> Products </div> </a>
+			<div class="navTab"> <img class="icons" src="img/aboutUs.svg"> About Us </div>
+			<div class="navTab"> <img class="icons" src="img/mail.svg"> Contact </div>
+			<a href="cart.html"> <div id="cart" class="navTab"> <img class="icons" src="img/cart.svg"> Cart: 0</div> </a>
+		</nav>
+	</header>
+	
+	<hr>
+	<div> 
+		<img class="productIMG" src="img/catHarness.jpg">
+		<a href="catHarnessDetails.html"> 
+			<div class="itemLabelDiv">
+				<p class="itemName"> Cat Harness </p>
+				<p class="itemPrice"> $11.99 </p>
+			</div> 
+		</a>
+		<img class="ratingAndReviews" src="img/RatingAndReviews.png">
+		<img onclick="addCartQuantity()" class="addToCartButton" src="img/AddToCartButton.png">
+	</div>
+	<hr> 
+	<div> 
+		<img class="productIMG" src="img/dogHarness.jpg">
+		<a href="dogHarnessDetails.html"> 
+			<div class="itemLabelDiv">
+				<p class="itemName"> Dog Harness </p>
+				<p class="itemPrice"> $11.99 </p>
+			</div>
+		</a>
+		<img class="ratingAndReviews" src="img/RatingAndReviews.png">
+		<img onclick="addCartQuantity()" class="addToCartButton" src="img/AddToCartButton.png">
+	</div>
+	<hr>
+	<div>
+		<img class="productIMG" src="img/storageHarness.jpg">
+		<a href="storageHarnessDetails.html">
+			<div class="itemLabelDiv">
+				<p class="itemName"> Food Harness </p>
+				<p class="itemPrice"> $11.99 </p>
+			</div>
+		</a>
+		<img class="ratingAndReviews" src="img/RatingAndReviews.png">
+		<img onclick="addCartQuantity()" class="addToCartButton" src="img/AddToCartButton.png">
+
+	</div>
+	<hr>
+	<div>
+		<img class="productIMG" src="img/gpsCollar.jpg">
+		<a href="gpsCollarDetails.html">
+			<div class="itemLabelDiv">
+				<p class="itemName"> GPS Collar </p>
+				<p class="itemPrice"> $11.99 </p>
+			</div>
+		</a>
+		<img class="ratingAndReviews" src="img/RatingAndReviews.png">
+		<img onclick="addCartQuantity()" class="addToCartButton" src="img/AddToCartButton.png">
+	</div>
+	<hr>
+
+</body>
+
+<!-- JS -->
+<script src="js/script.js"></script>
+
+</html>

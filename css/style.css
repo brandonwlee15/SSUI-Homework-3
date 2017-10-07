@@ -1,0 +1,82 @@
+#fixedHeader{
+}
+
+#MPAGLogo{
+	position: absolute;
+	margin-left: 2%;
+	margin-top: 1%;
+	width: 5%;
+}
+
+#headerText{
+	float: right;
+	margin-right: 40%;
+	font-family: "Andale Mono", AndaleMono, monospace;
+	font-size: 25px;
+}
+
+#searchBar{
+	width: 45%;
+	margin-left: 25%;
+	/*margin-top: 2%;*/
+}
+
+.navTab{
+	margin-top: 3%;
+	width: 25%;
+	height: 30px;
+	padding-top: 0.5%;
+	float: left;
+	text-align: center;
+	font-family: "Avenir Next", sans-serif;
+	background-color: #D8D8D8;
+	outline: #BCBCBC solid 0.5px;
+}
+
+.icons{
+	width: 4%;
+}
+
+#imgs{
+	margin-top: 5.5%;
+	width: 50%;
+	background-color: #f2f2f2;
+}
+
+#puppy{
+	margin-left: 25%;
+	padding-top: 0.5%;
+	margin-top: 0.1%;
+	padding-left: 0.5%;
+	width: 50%;
+}
+
+#content{
+	font-family: "Avenir Next", sans-serif;
+	float: right;
+	width: 50%;
+	margin-top: -34%;
+}
+
+.contentText{
+	margin-left: 5%;
+}
+
+.contentP{
+	margin-top: 6%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

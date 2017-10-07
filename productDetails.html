@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> Product Details </title>
+
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="css/productDetailsStyle.css">
+
+</head>
+
+<body>
+	<header id="fixedHeader"> 
+		<a href="index.html"> <img id="MPAGLogo" src="img/MPAGLogo.svg"> </a>
+		<p id="headerText"> Muddy Paw Adventure Gear </p>
+		<img id="searchBar" src="img/SearchBar.svg">
+		<nav>
+			<a href="products.html"> <div class="navTab active"> <img class="icons" src="img/products.svg"> Products </div> </a>
+			<div class="navTab"> <img class="icons" src="img/aboutUs.svg"> About Us </div>
+			<div class="navTab"> <img class="icons" src="img/mail.svg"> Contact </div>
+			<a href="cart.html"> <div id="cart" class="navTab"> <img class="icons" src="img/cart.svg"> Cart: 0 </div> </a>
+		</nav>
+	</header>
+
+	<img class="productIMG" src="img/catHarness.jpg">
+	<div class="itemLabelDiv"> 
+		<p class="itemName"> Cat Harness </p>
+		<p class="itemPrice"> $11.99 </p>
+		<!-- <br> -->
+		<p class="inStock"> In Stock </p>
+		<p class="wantIt"> Want it by Sunday, October 8?</p>
+	</div>
+	<div class="colorDiv"> 
+		<p> Color: </p>
+		<img onclick="strawberrySelected()" class="color" id="strawberry" src="img/strawberry.png"> 
+		<img onclick="blackberrySelected()" class="color" id="blackberry" src="img/blackberry.png">
+		<img onclick="crazyberrySelected()" class="color" id="crazyberry" src="img/crazyberry.png">
+		<br>
+		<img onclick="camouflageSelected()" class="color" id="camouflage" src="img/camouflage.png">
+		<img onclick="nightmoonSelected()" class="color" id="nightmoon" src="img/nightmoon.png">
+		<img onclick="fireorangeSelected()" class="color" id="fireorange" src="img/fireorange.png">
+	</div>
+
+	<div class="sizeDiv"> 
+		<img onclick="tinySelected()" class="size" id="tiny" src="img/TinyButton.png"> 
+		<br>
+		<img onclick="smallSelected()" class="size" id="small" src="img/SmallButton.png"> 
+		<br>
+		<img onclick="mediumSelected()" class="size" id="medium" src="img/MediumButton.png"> 
+		<br>
+		<img onclick="largeSelected()" class="size" id="large" src="img/LargeButton.png"> 
+	</div>
+	<div class="buttons"> 
+		<img class="addToWishList" src="img/AddToWishlistButton.png">
+		<br> 
+		<img onclick="addCartQuantity()" class="addToCart" src="img/AddToCartButton.png">
+	</div>
+</body>
+
+<!-- JS -->
+<script src="js/script.js"></script>
+
+</html>

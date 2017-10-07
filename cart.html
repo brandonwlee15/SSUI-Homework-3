@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> Cart </title>
+
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="css/cartStyle.css">
+
+</head>
+
+<body>
+	<header id="fixedHeader"> 
+		<a href="index.html"> <img id="MPAGLogo" src="img/MPAGLogo.svg"> </a>
+		<p id="headerText"> Muddy Paw Adventure Gear </p>
+		<img id="searchBar" src="img/SearchBar.svg">
+		<nav>
+			<a href="products.html"> <div class="navTab"> <img class="icons" src="img/products.svg"> Products </div> </a>
+			<div class="navTab"> <img class="icons" src="img/aboutUs.svg"> About Us </div>
+			<div class="navTab"> <img class="icons" src="img/mail.svg"> Contact </div>
+			<a href="cart.html"> <div id="cart" class="navTab active"> <img class="icons" src="img/cart.svg"> Cart: 4</div> </a>
+		</nav>
+	</header>
+
+	<div class="product" id="catHarness">
+		<img class="productIMG" src="img/catHarness.jpg">
+		<div class="itemLabelDiv">
+			<p class="itemName"> Cat Harness </p>
+			<p class="itemPrice"> $11.99 </p>
+		</div>
+		<img class="ratingAndReviews" src="img/RatingAndReviews.png">
+		<img onclick="removeCatHarness()" class="removeFromCartButton" src="img/RemoveFromCartButton.png"> 
+		<div class="quantity"> 
+			<p id="catHarnessQuantity"> Quantity: 1</p>
+		</div>
+	</div>
+	<hr>
+	<div class="product" id="dogHarness">
+		<img class="productIMG2" src="img/dogHarness.jpg">
+		<div class="itemLabelDiv">
+			<p class="itemName"> Dog Harness </p>
+			<p class="itemPrice"> $11.99 </p>
+		</div>
+		<img class="ratingAndReviews2" src="img/RatingAndReviews.png">
+		<img onclick="removeDogHarness()" class="removeFromCartButton2" src="img/RemoveFromCartButton.png"> 
+		<div class="quantity2"> 
+			<p id="dogHarnessQuantity"> Quantity: 1 </p>
+		</div>
+	</div>
+	<hr>
+	<div class="product" id="storageHarness">
+		<img class="productIMG2" src="img/storageHarness.jpg">
+		<div class="itemLabelDiv">
+			<p class="itemName"> Food Harness </p>
+			<p class="itemPrice"> $11.99 </p>
+		</div>
+		<img class="ratingAndReviews2" src="img/RatingAndReviews.png">
+		<img onclick="removeStorageHarness()" class="removeFromCartButton2" src="img/RemoveFromCartButton.png"> 
+		<div class="quantity2"> 
+			<p id="storageHarnessQuantity"> Quantity: 1 </p>
+		</div>
+	</div>
+	<hr>
+	<div class="product" id="gpsCollar">
+		<img class="productIMG2" src="img/gpsCollar.jpg">
+		<div class="itemLabelDiv">
+			<p class="itemName"> GPS Collar </p>
+			<p class="itemPrice"> $11.99 </p>
+		</div>
+		<img class="ratingAndReviews2" src="img/RatingAndReviews.png">
+		<img onclick="removeGPSCollar()" class="removeFromCartButton2" src="img/RemoveFromCartButton.png"> 
+		<div class="quantity2"> 
+			<p id="gpsCollarQuantity"> Quantity: 1 </p>
+		</div>
+	</div>
+	<hr>
+
+	<div class="shoppingCart">
+		<h4> Shopping Cart </h4>
+		<p id="subtotal"> Subtotal: &nbsp <span id="subtotalPrice">$47.96</span></p>
+	</div>
+	<img id="checkoutButton" src="img/CheckoutButton.png">
+</body>
+
+<!-- JS -->
+<script src="js/script.js"></script>
+
+</html>
